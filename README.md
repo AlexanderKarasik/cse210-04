@@ -33,7 +33,7 @@ root                    (project root folder)
 
 ## Authors
 ---
-* # Team Members: 
+* # Team: 
 * Elizeu Silva: fer21029@byui.edu
 * Alexander Karasik: 
 * Shawn Yang: 
