@@ -35,9 +35,9 @@ root                    (project root folder)
 ---
 * # Team: 
 * Elizeu Silva: fer21029@byui.edu
-* Alexander Karasik: 
-* Shawn Yang: 
-* Brenner Mann
-* Josifini 
+* Alexander Karasik: kar21020@byui.edu 
+* Shawn Yang: yangshawn14@byui.edu
+* Brenner Mann: man19032@byui.edu
+* Josifini Tamanalevu : josifini1234@gmail.com
 
 
