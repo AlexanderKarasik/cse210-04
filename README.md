@@ -1,5 +1,5 @@
 # cse210-04
-## GREED GAME 
+## GREED
 ---
 ## Overview
 ---
