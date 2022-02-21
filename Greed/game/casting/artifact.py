@@ -1,2 +1,2 @@
 class artifact:
-    pass
+    pass # start
