@@ -61,7 +61,7 @@ class Director:
 
         for artifact in artifacts:
             if robot.get_position().equals(artifact.get_position()):
-                ## Differentiate between rocks and gems to add or subtract points
+                ## Gem and rock score
                 if artifact.get_text() == '*':
                     self._total = self._total + 2
                     cast.remove_actor('artifacts', artifact)
