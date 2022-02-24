@@ -1,6 +1,5 @@
-import os
-import random
 
+<<<<<<< HEAD
 from game.casting.actor import Actor
 from game.casting.artifact import Artifact
 from game.casting.cast import Cast
@@ -88,3 +87,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+=======
+>>>>>>> 68c2254261c286cccdd78f242b28ca6141aad62c

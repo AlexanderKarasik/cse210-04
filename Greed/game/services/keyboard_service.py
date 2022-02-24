@@ -1,6 +1,5 @@
-import pyray
-from game.shared.point import Point
 
+<<<<<<< HEAD
 class KeyboardService:
     """Detects player input. 
     
@@ -55,3 +54,5 @@ class KeyboardService:
         direction = direction.scale(self._cell_size)
         
         return direction
+=======
+>>>>>>> 68c2254261c286cccdd78f242b28ca6141aad62c
