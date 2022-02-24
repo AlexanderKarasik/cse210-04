@@ -8,11 +8,9 @@ class Cast:
         _actors (dict): A dictionary of actors { key: group_name, value: a list of actors }
     """
 
-    def __init__(self, group, actor):
+    def __init__(self):
         """Constructs a new Actor."""
         self._actors = {}
-        self._group = group
-        self._actor = actor
         
     def add_actor(self, group, actor):
         """Adds an actor to the given group.
