@@ -1,5 +1,5 @@
 from game.shared.color import Color
-from game.shared.point import Point #working here
+from game.shared.point import Point
 
 
 class Actor:
@@ -46,7 +46,7 @@ class Actor:
         Returns:
             Point: The actor's position in 2d space.
         """
-        return self._position 
+        return self._position
     
     def get_text(self):
         """Gets the actor's textual representation.
