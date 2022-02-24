@@ -18,7 +18,7 @@ FRAME_RATE = 12
 MAX_X = 900
 MAX_Y = 600
 CELL_SIZE = 15
-FONT_SIZE = 18
+FONT_SIZE = 15
 COLS = 60
 ROWS = 40
 CAPTION = "Greed"
@@ -44,7 +44,7 @@ def main():
     
     # create the robot
     x = int(MAX_X / 2)
-    y = int(MAX_Y / 2)
+    y = int(MAX_Y / -15)
     position = Point(x, y)
 
     robot = Actor()
