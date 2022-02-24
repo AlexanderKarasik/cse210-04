@@ -63,7 +63,7 @@ class Director:
             if robot.get_position().equals(artifact.get_position()):
                 ## Gem and rock score
                 if artifact.get_text() == '*':
-                    self._total = self._total + 2
+                    self._total = self._total + 1
                     cast.remove_actor('artifacts', artifact)
                     
                 else:
