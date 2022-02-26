@@ -10,7 +10,7 @@ class KeyboardService:
         cell_size (int): For scaling directional input to a grid.
     """
 
-    def __init__(self, cell_size = 1):
+    def __init__(self, cell_size = 10):
         """Constructs a new KeyboardService using the specified cell size.
         
         Args:

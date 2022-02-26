@@ -9,7 +9,7 @@ class Color:
         _alpha (int): The alpha or opacity.
     """
     
-    def __init__(self, red, green, blue, alpha = 255):
+    def __init__(self, red = 255, green = 255, blue = 255, alpha = 255):
         """Constructs a new Color using the specified red, green, blue and alpha values. The alpha 
         value is the color's opacity.
         

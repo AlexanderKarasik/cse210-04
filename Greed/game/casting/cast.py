@@ -1,4 +1,3 @@
-#first commit
 class Cast:
     """A collection of actors.
 
