@@ -1,6 +1,6 @@
-from cgitb import text
 import os
 import random
+
 
 from game.casting.actor import Actor
 from game.casting.artifact import Artifact
@@ -15,7 +15,7 @@ from game.shared.color import Color
 from game.shared.point import Point
 
 
-FRAME_RATE = 15
+FRAME_RATE = 12
 MAX_X = 900
 MAX_Y = 600
 CELL_SIZE = 15
@@ -23,9 +23,7 @@ FONT_SIZE = 15
 COLS = 60
 ROWS = 40
 CAPTION = "Greed"
-DATA_PATH = os.path.dirname(os.path.abspath(__file__)) + "/data/messages.txt"
 WHITE = Color(255, 255, 255)
-DEFAULT_ARTIFACTS = 60
 
 
 def main():
@@ -55,8 +53,8 @@ def main():
     
     # create the artifacts
 
-    for text in range(DEFAULT_ARTIFACTS):
-        text = random.choice(['*', '0'])
+    for text in range(1, 100):
+        text = random.choice(["*", "0"])
         x = random.randint(1, COLS - 1)
         y = random.randint(1, ROWS - 1)
         position = Point(x, y)
